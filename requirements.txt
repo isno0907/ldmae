@@ -1,0 +1,37 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# cu121 is to meet our nvidia env. you can change it to other versions
+torch==2.2.0+cu121
+torchvision==0.17.0+cu121
+
+# Core dependencies for LDMAE
+timm==1.0.12
+diffusers==0.32.1
+accelerate
+torchdiffeq
+pytorch_fid
+tensorboard==2.16.2
+omegaconf==2.3.0
+einops
+fairscale
+safetensors
+taming-transformers
+
+# Additional dependencies for data processing
+Pillow>=9.0.0
+tqdm
+numpy<2.0
+pyyaml
+
+transformers
+scipy
+matplotlib
+opencv-python<4.9.0
+scikit-learn
+lpips
+
+# Optional: for reconstruction evaluation
+# torchmetrics
+
+# Optional: for LPIPS loss (if using taming-transformers)
+# taming-transformers-rom1504 

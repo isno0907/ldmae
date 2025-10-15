@@ -1,0 +1,16 @@
+torch>=2.0.0
+torchvision
+accelerate
+transformers
+Pillow
+numpy
+scipy
+tqdm
+matplotlib
+tensorboard
+omegaconf
+einops
+timm
+opencv-python
+scikit-learn
+lpips
