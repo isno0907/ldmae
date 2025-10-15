@@ -153,7 +153,3 @@ If you use this code in your research, please cite our paper:
   year={2025}
 }
 ```
-
-## License
-
-This project follows the same license as the original LightningDiT repository.
