@@ -154,17 +154,6 @@ If you use this code in your research, please cite our paper:
 }
 ```
 
-This codebase is built upon LightningDiT. If you use their code, please also cite:
-
-```bibtex
-@article{lightningdit,
-  title={LightningDiT: Lightning-fast Diffusion Transformers},
-  author={...},
-  journal={...},
-  year={2024}
-}
-```
-
 ## License
 
 This project follows the same license as the original LightningDiT repository.
