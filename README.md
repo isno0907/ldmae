@@ -54,7 +54,7 @@ The training script includes:
 
 After training is complete, save the trained model checkpoint as `vmaef8d16.pth` in the `LDMAE/pretrain_weight/` directory.
 
-** Pretrained checkpoints are also available [HERE]([https://drive.google.com/drive/u/0/folders/1Cj5Ina4C65C952myawIWUgCwtizu2CXh](https://drive.google.com/drive/folders/1Cj5Ina4C65C952myawIWUgCwtizu2CXh?usp=drive_link)) **
+** Pretrained checkpoints are also available [HERE](https://drive.google.com/drive/folders/1Cj5Ina4C65C952myawIWUgCwtizu2CXh?usp=drive_link) **
 
 ### Step 2: Configure Datasets
 
