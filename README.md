@@ -12,7 +12,7 @@ Seoul National University, Seoul, Korea
 † Corresponding author
 
 <p align="center">
-  <img src="figure/thumbnail.png" alt="LDMAE Generation Samples" width="40%">
+  <img src="figure/thumbnail.png" alt="LDMAE Generation Samples" width="70%">
 </p>
 
 ## Abstract
