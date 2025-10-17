@@ -1,4 +1,4 @@
-# Latent Diffusion Models with Masked AutoEncoders (LDMAE)
+# [Latent Diffusion Models with Masked AutoEncoders (LDMAE)](https://arxiv.org/pdf/2507.09984)
 
 <!-- ![LDMAE Generation Samples](figure/thumbnail.png)    -->
 
