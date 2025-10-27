@@ -1,15 +1,14 @@
 # [Latent Diffusion Models with Masked AutoEncoders (LDMAE)](https://arxiv.org/pdf/2507.09984)
 
 <!-- ![LDMAE Generation Samples](figure/thumbnail.png)    -->
-
-**ICCV 2025**
-
 [Junho Lee](mailto:joon2003@snu.ac.kr)\*, [Jeongwoo Shin](mailto:swswss@snu.ac.kr)\*, [Hyungwook Choi](mailto:chooi221@snu.ac.kr), [Joonseok Lee](mailto:joonseok@snu.ac.kr)†
 
-Seoul National University, Seoul, Korea
 
+Seoul National University, Seoul, Korea
 \* Equal contribution
 † Corresponding author
+
+![ICCV 2025](https://img.shields.io/badge/ICCV-2025-blue)
 
 <p align="center">
   <img src="figure/thumbnail.png" alt="LDMAE Generation Samples" width="70%">
@@ -146,10 +145,20 @@ Each configuration file specifies:
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{lee2025ldmae,
+@InProceedings{Lee_2025_ICCV,
+    author    = {Lee, Junho and Shin, Jeongwoo and Choi, Hyungwook and Lee, Joonseok},
+    title     = {Latent Diffusion Models with Masked AutoEncoders},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {17422-17431}
+}
+```
+```bibtex
+@article{lee2025latent,
   title={Latent Diffusion Models with Masked AutoEncoders},
   author={Lee, Junho and Shin, Jeongwoo and Choi, Hyungwook and Lee, Joonseok},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  journal={arXiv preprint arXiv:2507.09984},
   year={2025}
 }
 ```
