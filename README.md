@@ -35,6 +35,22 @@ conda activate ldmae
 pip install -r requirements.txt
 ```
 
+## Project Structure
+
+```
+ldmae_for_github/
+├── LDMAE/                  # Main diffusion model implementation (based on LightningDiT)
+│   ├── configs/           # Configuration files for different datasets
+│   ├── datasets/          # Dataset loaders and utilities
+│   ├── models/            # Model architectures
+│   ├── tokenizer/         # Tokenization modules
+│   └── pretrain_weight/   # Directory for pretrained weights
+├── VMAE/                   # Masked Autoencoder implementation
+│   ├── train_ae.sh        # Autoencoder training script
+│   └── ...
+└── requirements.txt        # Python dependencies
+```
+
 ## Training Pipeline
 
 ### Step 1: Train Autoencoder
@@ -104,21 +120,11 @@ bash run_inference.sh {CONFIG_PATH}
 
 Replace `{CONFIG_PATH}` with the path to your configuration file (e.g., `configs/imagenet/lightningdit_b_vmae_f8d16_cfg.yaml`).
 
-## Project Structure
-
+```bash
+python tools/save_npz.py {CONFIG_PATH} # save your npz
+python tools/evaluator.py /path/to/reference.npz /path/to/your.npz # calculate metrics
 ```
-ldmae_for_github/
-├── LDMAE/                  # Main diffusion model implementation (based on LightningDiT)
-│   ├── configs/           # Configuration files for different datasets
-│   ├── datasets/          # Dataset loaders and utilities
-│   ├── models/            # Model architectures
-│   ├── tokenizer/         # Tokenization modules
-│   └── pretrain_weight/   # Directory for pretrained weights
-├── VMAE/                   # Masked Autoencoder implementation
-│   ├── train_ae.sh        # Autoencoder training script
-│   └── ...
-└── requirements.txt        # Python dependencies
-```
+You can download FID stats from [HERE](https://drive.google.com/drive/folders/1zxFtcEwH0aBaQRN_mRWpzZiAhL6k-hlB?usp=drive_link)
 
 ## Configuration Files
 
